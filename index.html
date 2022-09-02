@@ -47,7 +47,7 @@
             </div>
         </nav>
     </header>
-    <div class="cart show__cart" id="cart">
+    <div class="cart" id="cart">
         <i class='bx bx-x cart__close'></i>
         <h2 class="cart__title">My Cart</h2>
         <div class="cart__container">
@@ -62,20 +62,20 @@
                 <div class="cart__details">
                     <h3 class="cart__titles">Hoodies</h3>
                     <span class="cart__stock">Stock: 10 | <span class="cart__price">$14.00</span></span>
-                    <span class="cart__subtotal"> Subtotal: $14.00 </span>
+                    <span class="cart__subtotal subtotalHoodies"> Subtotal: $14.00 </span>
                     <div class="cart__amount">
                         <div class="cart__amount-content">
-                            <span class="cart__amount-box">
+                            <span class="cart__amount-box cartRemoveHoodie">
                                 <i class='bx bx-minus'></i>
                             </span>
-                            <span>
+                            <span class="unitsHoodies">
                                 1 units
                             </span>
-                            <span class="cart__amount-box">
+                            <span class="cart__amount-box cartAddHoodie">
                                 <i class='bx bx-plus'></i>
                             </span>
                         </div>
-                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                        <i class='bx bx-trash-alt cart__amount-trash trashHoodie'></i>
                     </div>
                 </div>
             </article>
@@ -84,20 +84,20 @@
                 <div class="cart__details">
                     <h3 class="cart__titles">Shirts</h3>
                     <span class="cart__stock">Stock: 14 | <span class="cart__price">$24.00</span></span>
-                    <span class="cart__subtotal"> Subtotal: $24.00 </span>
+                    <span class="cart__subtotal subtotalShirts"> Subtotal: $24.00 </span>
                     <div class="cart__amount">
                         <div class="cart__amount-content">
-                            <span class="cart__amount-box">
+                            <span class="cart__amount-box cartRemoveShirt">
                                 <i class='bx bx-minus'></i>
                             </span>
-                            <span>
+                            <span class="unitsShirts">
                                 1 units
                             </span>
-                            <span class="cart__amount-box">
+                            <span class="cart__amount-box cartAddShirt">
                                 <i class='bx bx-plus'></i>
                             </span>
                         </div>
-                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                        <i class='bx bx-trash-alt cart__amount-trash trashShirt'></i>
                     </div>
                 </div>
             </article>
@@ -106,30 +106,30 @@
                 <div class="cart__details">
                     <h3 class="cart__titles">Sweatshirts</h3>
                     <span class="cart__stock">Stock: 19 | <span class="cart__price">$24.00</span></span>
-                    <span class="cart__subtotal"> Subtotal: $24.00 </span>
+                    <span class="cart__subtotal subtotalSweatshirts"> Subtotal: $24.00 </span>
                     <div class="cart__amount">
                         <div class="cart__amount-content">
-                            <span class="cart__amount-box">
+                            <span class="cart__amount-box cartRemoveSweatshirt">
                                 <i class='bx bx-minus'></i>
                             </span>
-                            <span>
+                            <span class="unitsSweatshirts">
                                 1 units
                             </span>
-                            <span class="cart__amount-box">
+                            <span class="cart__amount-box cartAddSweatshirt">
                                 <i class='bx bx-plus'></i>
                             </span>
                         </div>
-                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                        <i class='bx bx-trash-alt cart__amount-trash trashSweatshirt'></i>
                     </div>
                 </div>
             </article>
         </div>
         <div class="cart__prices">
-            <span><span>0</span> items</span>
-            <span>$0.00</span>
+            <span><span class="countCart">0</span> items</span>
+            <span class="cartTotalPrice">$0.00</span>
         </div>
         <div class="cart__checkout">
-            <button class="cart__btn" disabled="disabled"><i class='bx bxs-check-shield'></i> Checkout</button>
+            <button class="cart__btn" disabled><i class='bx bxs-check-shield'></i> Checkout</button>
         </div>
     </div>
     <main>
